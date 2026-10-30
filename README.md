@@ -21,8 +21,6 @@ Below are **two separate projects**, both carried out as part of my **MSc in Mai
 
 **In plain words:** instead of looking at one pump, you see the whole plant and what to fix first. A separate project that applies the V0 pump models (project 2 below) at plant level. It follows the way a plant is organised: **plant → unit → pump**.
 
-**Technical summary:** AI-driven predictive-maintenance and reliability platform for rotating equipment. Detects pump faults with 97% recall and classifies them with 86.7% accuracy, estimates remaining life, and ranks what to fix first. Alarms follow ISA-18.2; reliability analytics cover Weibull, MTBF and availability. Under development.
-
 <p align="center"><img src="assets/rotatingsense-plant.png" alt="RotatingSense plant overview: two units, ten pumps, five health states" width="100%"></p>
 
 - **Plant overview:** live process map, pumps running against pumps needed, flow against demand, and a ranked "needs attention" list.

@@ -43,7 +43,9 @@ All plant data is **simulated**. Built with FastAPI, Supabase Postgres, React, V
 
 **[Open V0](https://portly-chi.vercel.app)**: public demo, no sign-in.
 
-> **How to test the model:** click the **settings icon** (gear, top right of the page), choose **Show scenario**, and run a scenario. You can also upload your own vibration file.
+> **How to test the model:** click the **settings icon** (gear, top right of the page) and switch on **Show demo scenario buttons**. Then pick a preset scenario card and press **Run Analysis**. You can also upload your own vibration file.
+
+<p align="center"><img src="assets/v0-settings.png" alt="V0 dashboard settings: switch on Show demo scenario buttons" width="360"></p>
 
 A separate project: my MSc course project (ISE 619, Maintenance and Reliability Engineering, KFUPM). A three-stage machine-learning pipeline for centrifugal pumps.
 

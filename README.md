@@ -6,10 +6,10 @@ I build AI tools for maintenance and reliability of rotating equipment, with a f
 
 Below are **two separate projects**, both carried out as part of my **MSc in Maintenance and Reliability Engineering at KFUPM**. They share one idea: turn vibration and process data into decisions a maintenance team can act on.
 
-| | Project | Status |
-|---|---|---|
-| 1 | **RotatingSense**: plant-level predictive maintenance platform | **Under development** |
-| 2 | **V0 (PumpGuard AI v6.1)**: AI pipeline for pump health (ISE 619 project) | Complete, public demo |
+| | Project | In plain words | Status | Link |
+|---|---|---|---|---|
+| 1 | **RotatingSense** | A "control room" for a whole plant. It shows which pumps are healthy and which need maintenance first, and why. | **Under development** | [Open RotatingSense](https://rotatingsense.onrender.com) (sign-in required) |
+| 2 | **V0 (PumpGuard AI v6.1)** | An AI that reads a pump's vibration, spots a developing fault, estimates how long it can keep running, and recommends the maintenance action. | Complete, public demo | [Open V0](https://portly-chi.vercel.app) (no sign-in) |
 
 ---
 
@@ -19,7 +19,7 @@ Below are **two separate projects**, both carried out as part of my **MSc in Mai
 
 **[Open RotatingSense](https://rotatingsense.onrender.com)**: live demo (sign-in required; message me for a demo account).
 
-A separate project that applies the V0 pump models (project 2 below) at plant level. It follows the way a plant is organised: **plant → unit → pump**.
+**In plain words:** instead of looking at one pump, you see the whole plant and what to fix first. A separate project that applies the V0 pump models (project 2 below) at plant level. It follows the way a plant is organised: **plant → unit → pump**.
 
 <p align="center"><img src="assets/rotatingsense-plant.png" alt="RotatingSense plant overview: two units, ten pumps, five health states" width="100%"></p>
 
@@ -47,7 +47,7 @@ All plant data is **simulated**. Built with FastAPI, Supabase Postgres, React, V
 
 <p align="center"><img src="assets/v0-settings.png" alt="V0 dashboard settings: switch on Show demo scenario buttons" width="360"></p>
 
-A separate project: my MSc course project (ISE 619, Maintenance and Reliability Engineering, KFUPM). A three-stage machine-learning pipeline for centrifugal pumps.
+**In plain words:** pumps shake in a specific way before they fail. This AI listens to that vibration and warns early. A separate project: my MSc course project (ISE 619, Maintenance and Reliability Engineering, KFUPM). A three-stage machine-learning pipeline for centrifugal pumps.
 
 <p align="center"><img src="assets/v0-pumpguard.png" alt="PumpGuard AI v6.1: AI pipeline flow and 3D vibration sensor map" width="100%"></p>
 

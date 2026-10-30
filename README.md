@@ -2,15 +2,24 @@
 
 **Reliability Engineer | RCM & FMEA | CMRP** · MSc Maintenance and Reliability Engineering, KFUPM
 
-I build AI tools for maintenance and reliability of rotating equipment, with a focus on refinery and gas-plant pumps. Two projects, one idea: turn vibration and process data into decisions a maintenance team can act on.
+I build AI tools for maintenance and reliability of rotating equipment, with a focus on refinery and gas-plant pumps.
+
+Below are **two separate projects**, both carried out as part of my **MSc in Maintenance and Reliability Engineering at KFUPM**. They share one idea: turn vibration and process data into decisions a maintenance team can act on.
+
+| | Project | Status |
+|---|---|---|
+| 1 | **RotatingSense**: plant-level predictive maintenance platform | **Under development** |
+| 2 | **V0 (PumpGuard AI v6.1)**: AI pipeline for pump health (ISE 619 project) | Complete, public demo |
 
 ---
 
 ## 1. RotatingSense: plant-level predictive maintenance
 
+> **Status: under development.** Features, screens and data change often. MSc in Maintenance and Reliability Engineering, KFUPM.
+
 **[Open RotatingSense](https://rotatingsense.onrender.com)**: live demo (sign-in required; message me for a demo account).
 
-A web platform that takes the V0 pump model (below) from a single pump to a whole plant. It follows the way a plant is organised: **plant → unit → pump**.
+A separate project that applies the V0 pump models (project 2 below) at plant level. It follows the way a plant is organised: **plant → unit → pump**.
 
 <p align="center"><img src="assets/rotatingsense-plant.png" alt="RotatingSense plant overview: two units, ten pumps, five health states" width="100%"></p>
 
@@ -32,9 +41,11 @@ All plant data is **simulated**. Built with FastAPI, Supabase Postgres, React, V
 
 ## 2. V0 (PumpGuard AI v6.1): AI pipeline for pump health
 
-**[Open V0](https://portly-chi.vercel.app)**: public demo, no sign-in. Pick a pump, upload vibration data or run a scenario.
+**[Open V0](https://portly-chi.vercel.app)**: public demo, no sign-in.
 
-My MSc project (ISE 619, KFUPM): a three-stage machine-learning pipeline for centrifugal pumps.
+> **How to test the model:** click the **settings icon** (gear, top right of the page), choose **Show scenario**, and run a scenario. You can also upload your own vibration file.
+
+A separate project: my MSc course project (ISE 619, Maintenance and Reliability Engineering, KFUPM). A three-stage machine-learning pipeline for centrifugal pumps.
 
 <p align="center"><img src="assets/v0-pumpguard.png" alt="PumpGuard AI v6.1: AI pipeline flow and 3D vibration sensor map" width="100%"></p>
 
